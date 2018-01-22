@@ -37,7 +37,8 @@ class FitnesseTestListener extends JUnitRunNotifierResultsListener {
 
     @Override
     void testComplete(TestPage test, TestSummary testSummary) {
-        println("Done.")
+
+        println("Done. (Right: ${testSummary.right}, Wrong: ${testSummary.wrong}, Exeptions: ${testSummary.exceptions})")
         super.testComplete(test, testSummary)
     }
 }

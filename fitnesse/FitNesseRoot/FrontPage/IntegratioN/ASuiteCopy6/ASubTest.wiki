@@ -1,0 +1,6 @@
+---
+Test
+---
+|navigate to|http://www.google.com       |
+|check      |text for|hptl|is|About Store|
+|close browser                           |

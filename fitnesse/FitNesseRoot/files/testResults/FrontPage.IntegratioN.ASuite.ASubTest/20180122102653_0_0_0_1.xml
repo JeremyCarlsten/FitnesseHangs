@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>FrontPage.IntegratioN.ASuite.ASubTest</rootPath>
+    <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>c:\development\tools\jdk64_1.8.0_74\bin\java -cp ../target/classes;../target/test-classes;../target/dependency/*.jar fitlibrary.suite.FitLibraryServer PIT-PAIR02 60009 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Error: Could not find or load main class fitlibrary.suite.FitLibraryServer
+</stdErr>
+    <exception>FitClient: external process terminated before a connection could be established.</exception>
+    <exception>FitClient: external process terminated before a connection could be established.</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1115</totalRunTimeInMillis>
+</testResults>
+

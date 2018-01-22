@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>FrontPage.IntegratioN.ASuite.ASubTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <date>2018-01-22T10:31:53-06:00</date>
+    <runTimeInMillis>42</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.IntegratioN.SetUp"&gt;.FrontPage.IntegratioN.SetUp&lt;/a&gt; &lt;a href="FrontPage.IntegratioN.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;com.jcarlsten.WebFixture&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;navigate to&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.NullPointerException: Cannot invoke method get() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at com.jcarlsten.WebFixture.navigateTo(WebFixture.groovy:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at fitlibrary.closure.MethodClosure.invoke(Unknown Source)
+	at fitlibrary.closure.MethodClosure.invokeTyped(Unknown Source)
+	at fitlibrary.closure.CalledMethodTarget.invokeTyped(Unknown Source)
+	at fitlibrary.closure.CalledMethodTarget.invokeTyped(Unknown Source)
+	at fitlibrary.traverse.workflow.caller.DoActionCaller.run(Unknown Source)
+	at fitlibrary.traverse.workflow.DispatchRowInFlow.pickAndRunValidCaller(Unknown Source)
+	at fitlibrary.traverse.workflow.DispatchRowInFlow.interpretRow(Unknown Source)
+	at fitlibrary.traverse.workflow.DoTraverse.interpretRowBeforeWrapping(Unknown Source)
+	at fitlibrary.traverse.workflow.DoTraverse.interpretRow(Unknown Source)
+	at fitlibrary.flow.DoFlowOnTable.runTable(Unknown Source)
+	at fitlibrary.flow.DoFlowOnTable.runTable(Unknown Source)
+	at fitlibrary.flow.DoFlow.runTable(Unknown Source)
+	at fitlibrary.flow.DoFlow.runStorytest(Unknown Source)
+	at fitlibrary.suite.BatchFitLibrary.doTables(Unknown Source)
+	at fitlibrary.suite.BatchFitLibrary.doStorytest(Unknown Source)
+	at fitlibrary.suite.BatchFitLibrary.doTables(Unknown Source)
+	at fitlibrary.suite.FitLibraryServer.doTables(Unknown Source)
+	at fitlibrary.suite.FitLibraryServer.doTables(Unknown Source)
+	at fit.FitServerBridge.process(Unknown Source)
+	at fit.FitServerBridge.run(Unknown Source)
+	at fitlibrary.suite.FitLibraryServer.main(Unknown Source)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://www.google.com"&gt;http://www.google.com&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;close browser&lt;hr&gt;&lt;pre&gt;&lt;div class="fit_stacktrace"&gt;java.lang.NullPointerException: Cannot invoke method close() on null object
+	at org.codehaus.groovy.runtime.NullObject.invokeMethod(NullObject.java:91)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:48)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.call(NullCallSite.java:35)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:117)
+	at com.jcarlsten.WebFixture.closeBrowser(WebFixture.groovy:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at fitlibrary.closure.MethodClosure.invoke(Unknown Source)
+	at fitlibrary.closure.MethodClosure.invokeTyped(Unknown Source)
+	at fitlibrary.closure.CalledMethodTarget.invokeTyped(Unknown Source)
+	at fitlibrary.closure.CalledMethodTarget.invokeTyped(Unknown Source)
+	at fitlibrary.traverse.workflow.caller.DoActionCaller.run(Unknown Source)
+	at fitlibrary.traverse.workflow.DispatchRowInFlow.pickAndRunValidCaller(Unknown Source)
+	at fitlibrary.traverse.workflow.DispatchRowInFlow.interpretRow(Unknown Source)
+	at fitlibrary.traverse.workflow.DoTraverse.interpretRowBeforeWrapping(Unknown Source)
+	at fitlibrary.traverse.workflow.DoTraverse.interpretRow(Unknown Source)
+	at fitlibrary.flow.DoFlowOnTable.runTable(Unknown Source)
+	at fitlibrary.flow.DoFlowOnTable.runTable(Unknown Source)
+	at fitlibrary.flow.DoFlow.runTable(Unknown Source)
+	at fitlibrary.flow.DoFlow.runStorytest(Unknown Source)
+	at fitlibrary.suite.BatchFitLibrary.doTables(Unknown Source)
+	at fitlibrary.suite.BatchFitLibrary.doStorytest(Unknown Source)
+	at fitlibrary.suite.BatchFitLibrary.doTables(Unknown Source)
+	at fitlibrary.suite.FitLibraryServer.doTables(Unknown Source)
+	at fitlibrary.suite.FitLibraryServer.doTables(Unknown Source)
+	at fit.FitServerBridge.process(Unknown Source)
+	at fit.FitServerBridge.run(Unknown Source)
+	at fitlibrary.suite.FitLibraryServer.main(Unknown Source)
+&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ASubTest</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fitlibrary.suite.FitLibraryServer</testSystem>
+    <command>c:\development\tools\jdk64_1.8.0_74\bin\java -cp ../target/classes;../target/test-classes;C:\projects\fitnesseHang\fitnesse\..\target\dependency\ant-1.9.6.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\ant-launcher-1.9.6.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\cglib-nodep-2.1_3.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\commons-codec-1.10.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\commons-collections-3.2.2.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\commons-exec-1.3.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\commons-io-2.4.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\commons-lang-2.6.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\commons-lang3-3.4.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\commons-logging-1.2.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\cssparser-0.9.18.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\diffutils-1.3.0.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\fitlibrary-20101224.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\fitnesse-20161106.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\groovy-all-2.4.12.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\gson-2.3.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\guava-19.0.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\hamcrest-core-1.3.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\htmllexer-2.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\htmlparser-2.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\htmlunit-2.21.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\htmlunit-core-js-2.17.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\htmlunit-driver-2.21.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\httpclient-4.5.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\httpcore-4.4.3.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\httpmime-4.5.2.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\jetty-io-9.2.15.v20160210.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\jetty-util-9.2.15.v20160210.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\jna-4.1.0.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\jna-platform-4.1.0.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\json-20151123.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\junit-4.12.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\log4j-1.2.17.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\neko-htmlunit-2.21.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\netty-3.5.7.Final.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\sac-1.3.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-api-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-chrome-driver-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-edge-driver-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-firefox-driver-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-ie-driver-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-java-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-leg-rc-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-remote-driver-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-safari-driver-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\selenium-support-2.53.1.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\serializer-2.7.2.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\velocity-1.7.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\websocket-api-9.2.15.v20160210.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\websocket-client-9.2.15.v20160210.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\websocket-common-9.2.15.v20160210.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\xalan-2.7.2.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\xercesImpl-2.11.0.jar;C:\projects\fitnesseHang\fitnesse\..\target\dependency\xml-apis-1.4.01.jar fitlibrary.suite.FitLibraryServer PIT-PAIR02 60087 3863</command>
+    <exitCode>2</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>5927</totalRunTimeInMillis>
+</testResults>
+

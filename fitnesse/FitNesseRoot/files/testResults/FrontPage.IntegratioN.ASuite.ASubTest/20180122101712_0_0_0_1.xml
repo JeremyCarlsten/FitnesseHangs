@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>FrontPage.IntegratioN.ASuite.ASubTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>3</exceptions>
+    </counts>
+    <date>2018-01-22T10:17:12-06:00</date>
+    <runTimeInMillis>6</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.IntegratioN.SetUp"&gt;.FrontPage.IntegratioN.SetUp&lt;/a&gt; &lt;a href="FrontPage.IntegratioN.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;com.jcarlsten.WebFixture&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: com.jcarlsten.WebFixture.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;navigate to&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: NavigateTo.&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://www.google.com"&gt;http://www.google.com&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;close browser&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: CloseBrowser.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>ASubTest</relativePageName>
+          </result>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>c:\development\tools\jdk64_1.8.0_74\bin\java -cp C:\projects\fitnesseHang\fitnesse\fitnesse-standalone.jar fit.FitServer PIT-PAIR02 59871 3863</command>
+    <exitCode>3</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>361</totalRunTimeInMillis>
+</testResults>
+

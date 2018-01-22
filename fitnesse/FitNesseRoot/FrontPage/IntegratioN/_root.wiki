@@ -1,0 +1,11 @@
+---
+Suite
+---
+!1 Test suite X
+!contents -R2 -g -p -f -h
+
+!define TEST_RUNNER {fitlibrary.suite.FitLibraryServer}
+
+!path ../target/classes
+!path ../target/test-classes
+!path ../target/dependency/*.jar

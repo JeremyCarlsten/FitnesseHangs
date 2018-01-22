@@ -1,3 +1,4 @@
+|FrontPage.IntegratioN.AnotherSuite.ASubTest||11:22:20 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.ASuite.ASubTest1||10:48:04 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.ASuiteCopy7||10:46:04 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.ASuiteCopy6||10:45:57 Mon, Jan 22, 2018|

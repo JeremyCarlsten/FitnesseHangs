@@ -27,12 +27,8 @@ class WebFixture extends DoFixture {
         webDriver.get(url)
     }
 
-    void clicksElementById(String id) {
-        webDriver.findElement(By.id(id)).click()
-    }
-
-    void clicksElementBytag(String tag) {
-        webDriver.findElement(By.tagName(tag)).click()
+    void clicksElementByName(String name) {
+        webDriver.findElement(By.name(name)).click()
     }
 
     void entersTextFor(String text, String elementName) {
@@ -46,6 +42,10 @@ class WebFixture extends DoFixture {
 
     String textForIs(String elementId){
         webDriver.findElement(By.id(elementId)).text
+    }
+
+    Boolean textForContains(String elementId, String text){
+        (webDriver.findElement(By.id(elementId)).text).contains(text)
     }
 
     void closeBrowser(){

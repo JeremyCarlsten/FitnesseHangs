@@ -1,9 +1,0 @@
----
-Test
----
-|navigate to           |http://www.google.com                         |
-|check                 |text for   |hptl    |is      |About Store     |
-|enters text           |kitten     |for     |q                        |
-|clicks element by name|btnK                                          |
-|text for              |resultStats|contains|About 223,000,000 results|
-|close browser                                                        |

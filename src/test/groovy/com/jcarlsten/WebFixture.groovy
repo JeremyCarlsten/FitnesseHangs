@@ -27,8 +27,8 @@ class WebFixture extends DoFixture {
         webDriver.get(url)
     }
 
-    void clicksElementByName(String name) {
-        webDriver.findElement(By.name(name)).click()
+    void clicksElementById(String id) {
+        webDriver.findElement(By.id(id)).click()
     }
 
     void entersTextFor(String text, String elementName) {
@@ -54,10 +54,10 @@ class WebFixture extends DoFixture {
 
 
     private WebDriver createWebDriver(FirefoxProfile profile) {
-        File firefoxPath = new File('./firefox/41.0/firefox.exe')
+        File firefoxPath = new File('C:\\projects\\FitnesseHangs\\firefox\\41.0\\firefox.exe')
         WebDriver driver = new FirefoxDriver(new FirefoxBinary(firefoxPath), profile)
 
-        driver.manage().window().setPosition(new Point(-2000, -2000))   //Move the window out of our view, it's annoying during the build.
+//        driver.manage().window().setPosition(new Point(-2000, -2000))   //Move the window out of our view, it's annoying during the build.
         //use win + arrow keys to bring back when debugging.
 
 

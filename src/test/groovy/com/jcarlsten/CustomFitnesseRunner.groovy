@@ -10,7 +10,6 @@ import org.junit.runner.notification.RunNotifier
 import org.junit.runners.model.InitializationError
 
 class CustomFitnesseRunner extends FitNesseRunner {
-
     CustomFitnesseRunner(Class<?> suiteClass) throws InitializationError {
         super(suiteClass)
     }
@@ -23,7 +22,6 @@ class CustomFitnesseRunner extends FitNesseRunner {
 }
 
 class FitnesseTestListener extends JUnitRunNotifierResultsListener {
-
 
     FitnesseTestListener(RunNotifier notifier, Class<?> mainClass, DescriptionFactory descriptionFactory) {
         super(notifier, mainClass, descriptionFactory)
@@ -38,7 +36,7 @@ class FitnesseTestListener extends JUnitRunNotifierResultsListener {
     @Override
     void testComplete(TestPage test, TestSummary testSummary) {
 
-        println("Done. (Right: ${testSummary.right}, Wrong: ${testSummary.wrong}, Exeptions: ${testSummary.exceptions})")
+        println("Done. (Right: ${testSummary.right}, Wrong: ${testSummary.wrong}, Exeptions: ${testSummary.exceptions}, Completed: ${completedTests} / ${totalNumberOfTests})")
         super.testComplete(test, testSummary)
     }
 }

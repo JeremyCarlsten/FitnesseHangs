@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some Page</title>
+</head>
+<body>
+    <h1 id="logo">Some Page</h1>
+    <div id="nav">
+        About Store
+    </div>
+    <input type="text" value="" name="someInput" id="someInput">
+    <button id="submit" onclick="doStuff()">Do It</button>
+    <div id="resultStats"></div>
+
+
+    <script>
+        var count = 0;
+
+        function doStuff() {
+            var textLength = document.getElementById('someInput').value.length;
+        console.log(textLength);
+        count = ((count + textLength) * 2) - 2; // random math to make the number change.
+
+        document.getElementById('resultStats').innerHTML = '<p>' + count + '</p>';
+        }
+    </script>
+</body>
+</html>

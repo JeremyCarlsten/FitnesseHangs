@@ -1,3 +1,5 @@
+|FrontPage.IntegratioN.rootSuite1||12:21:35 Tue, Sep 11, 2018|
+|FrontPage.IntegratioN.ASuite.ASubTest||12:14:12 Tue, Sep 11, 2018|
 |FrontPage.IntegratioN.AnotherSuite.ASubTest||11:22:20 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.ASuite.ASubTest1||10:48:04 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.ASuiteCopy7||10:46:04 Mon, Jan 22, 2018|
@@ -8,7 +10,6 @@
 |FrontPage.IntegratioN.ASuiteCopy2||10:44:57 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.ASuiteCopy||10:44:49 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.ASuite||10:41:38 Mon, Jan 22, 2018|
-|FrontPage.IntegratioN.ASuite.ASubTest||10:36:21 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN||10:31:45 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.SetUp||10:17:09 Mon, Jan 22, 2018|
 |FrontPage.IntegratioN.ATest.ASubTest||10:13:16 Mon, Jan 22, 2018|

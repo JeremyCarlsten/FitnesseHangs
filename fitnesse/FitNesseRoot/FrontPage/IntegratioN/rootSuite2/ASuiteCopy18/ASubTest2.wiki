@@ -1,0 +1,53 @@
+---
+Test
+---
+|navigate to           |http://localhost:3000                         |
+|check                 |text for   |nav   |is      |About Store     |
+|enters text           |kitten     |for     |someInput                        |
+|clicks element by id|submit                                          |
+|text for              |resultStats|contains|10                       |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|30                       |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|70                       |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|150                      |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|310                      |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|630                      |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|1270                     |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|2550                     |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|5110                     |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|10230                    |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|20470                    |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|40950                    |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|81910                    |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|163830                   |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|327670                   |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|655350                   |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|1310710                  |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|2621430                  |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|5242870                  |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|10485750                 |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|20971510                 |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|41943030                 |
+|clicks element by id  |submit                                        |
+|text for              |resultStats|contains|83886070                 |
+|close browser                                                        |
